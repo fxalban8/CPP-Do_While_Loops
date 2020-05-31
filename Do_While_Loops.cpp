@@ -29,6 +29,16 @@ int main() {
 	}while(input!=password);
 	
 
+
+	//flushing the buffer
+        int c;
+        do{
+        c=cin.get();
+        } while (c!='\n'&&c!=EOF);
+
+
+
+
 	cin.get();
 	return 0;
 }
