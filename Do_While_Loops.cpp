@@ -9,6 +9,24 @@ int main() {
 		cout<<"Hi"<<endl;
 		x++;
 	}while(x<10);
+
+
+
+
+
+	const string password="Malawi";	//password
+	string input;
+
+	do{
+		cout<<"Enter your password"<<endl;
+		cin>>input;
+
+		if(input!=password){
+			cout<<"Access denied"<<endl;
+		}else{
+			cout<<"Access granted"<<endl;
+		}
+	}while(input!=password);
 	
 
 	cin.get();
